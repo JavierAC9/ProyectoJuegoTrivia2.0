@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+    <div id="bloquetitulo">  
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>   
+        <a href="final.html"><img src="img/4StarDragonBall2.png"  height="85" width=auto class="flecha"></a> 
+    </div>  
+
+
+    <div class="formContainer">
+
+        <img src="img/SemillasErmitaño.png" height="180" width=auto>
+        <p>Pregunta 10. ¿Para qué sirven las Semillas del Ermitaño?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+                
+                  <input type="radio" name="color" value="Para alimentar al ermitaño" class="radio" id="1">
+                  <label for="1">Para alimentar al ermitaño</label>                
+               
+                    <input type="radio" name="color" value="Para teletransportarse" class="radio" id="2">
+                    <label for="2">Para teletransportarse </label>                 
+                               
+                     <input type="radio" name="color" value="Para viajar en el tiempo" class="radio" id="3">
+                      <label for="3">Para viajar en el tiempo</label>
+                                 
+                     <input type="radio" name="color" value="Para curar a personas al instante" class="radio" id="4">
+                      <label for="4">Para curar a personas al instante</label>
+                 
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(9)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+          
+    </div>
+
+
+    
+  
+</body>
+
+</html>

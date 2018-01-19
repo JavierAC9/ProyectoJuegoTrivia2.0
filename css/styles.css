@@ -1,0 +1,275 @@
+
+p {
+	margin-top: 5px;
+}
+
+#trivia{
+  width: 30%;
+  height: auto;
+  position: absolute;
+  left: 13%;
+  top: 13%;
+}
+
+#imagen{
+  position: absolute;
+  width: 40%;
+  height: auto;
+  bottom:0px;
+  left: :0px;
+}
+
+	
+.inicio {
+  background-image: url("../img/DragonBallFondo1.jpg");
+  background-position: 50% ;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-attachment: fixed;
+  font-weight: bolder;
+  background-color: black;
+}
+
+
+.final {
+  background-color: #0091d0;
+}
+
+#total{
+  float: right;
+  margin-top: 5%; 
+  margin-right: 10px;
+  color: white;
+  font-size: 3em;
+}
+
+#comentario{
+  margin-right: 10px;
+  float: right;
+  margin-top: 5%; 
+  color: white;
+  font-size: 3em;
+}
+
+
+.pregunta {
+  background-image: url("../img/DragonBalls.jpg");
+  background-position: 85% ;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-attachment: fixed;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.resultado {
+  background-image: url("../img/Goku.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  font-weight: bolder;
+  background-color: white;
+
+}
+
+
+.zoomIn{
+-webkit-transition:0.4s;
+-moz-transition:0.4s;
+-o-transition:0.4s;
+-ms-transition:0.4s;
+-webkit-transform:scale(1.3);   /* Efecto de zoom */
+-moz-transform:scale(1.3);
+-o-transform:scale(1.3);
+-ms-transform:scale(1.3);
+}
+
+.zoomOut{
+-webkit-transition:1.4s;
+-moz-transition:1.4s;
+-o-transition:1.4s;
+-ms-transition:1.4s;
+-webkit-transform:scale(1);   /* Efecto de zoom */
+-moz-transform:scale(1);
+-o-transform:scale(1);
+-ms-transform:scale(1);
+}
+
+#bloquetitulo{
+	position:absolute;
+ 	top:10px;
+ 	left:30%;
+	display:inline-block;
+	padding-bottom: 40px;
+}
+
+#bloquetitulo1{
+	position:absolute;
+ 	top:10px;
+ 	left:38%;
+	display:inline-block;
+	padding-bottom: 40px;
+}
+
+#bloquetituloinicio{
+
+	position:absolute;
+ 	top:425px;
+ 	left:38%;
+	display:inline-block;
+	padding-bottom: 40px;
+}
+
+.logo{
+	width: 42px;
+	height: 42px;
+}
+
+.titulo{
+	color: red;
+}
+
+.formContainer{
+	margin-left: 200px;	
+	margin-top: 130px;
+	margin-right: 750px;
+  width: 395px;
+}
+
+
+.radioContainer label{
+	display: block;	
+}
+
+.respuesta {
+	display: block;
+	padding-bottom: 10px;
+}
+.correcto {
+	color: green;
+}
+.incorrecto {
+	color: red;
+}
+.resultadofinal {
+	color: yellow;
+}
+
+#resultado{
+	font-size: 1.5em;
+}
+
+#boton {
+ margin-top: 15px;
+ margin-right: 40%;
+ border: none;
+ background: #848484;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
+
+#boton:hover {
+ background: rgba(0,0,0,0);
+ color: rgba(255,124,0,1);
+ box-shadow: inset 0 0 0 3px rgba(255,124,0,1);
+}
+
+#botoninicio {
+ border: none;
+ background: black;
+ color: rgba(255,247,0,1);
+ padding: 1% 2% 1% 2%;
+ font-size: 5em;
+ border-radius: 5px;
+ position: absolute;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+ top:45%;
+ left:15%;
+}
+
+#botoninicio:hover {
+ background: rgba(0,0,0,1);
+ color: #FF1A00;
+ box-shadow: inset 0 0 0 5px 255,124,0,1;
+ font-size: 5.2em;
+}
+
+
+#botonFinal {
+ float: right;
+ border: none;
+ background: black;
+ color: rgba(255,247,0,1);
+ padding: 10px 15px 10px 15px;
+ font-size: 2em;
+ border-radius: 5px;
+ position: absolute ;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+ bottom:5%;
+ right:2%;
+}
+
+#botonFinal:hover {
+ background: rgba(0,0,0,1);
+ color: #FF1A00;
+ box-shadow: inset 0 0 0 5px 255,124,0,1;
+ font-size: 2.2em;
+}
+
+
+
+
+
+
+  .formulario h2 {
+    font-size: 16px;
+    color: #001F3F;
+    margin-bottom: 20px;
+    margin-left: 20px; }
+  
+  .formulario .radio label,
+  .formulario .checkbox label {
+    display: block;
+    cursor: pointer;
+    color: black;
+    position: relative;
+    padding: 5px 15px 5px 51px;
+    font-size: 1em;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .formulario .radio label:hover,
+    .formulario .checkbox label:hover {
+      background: rgba(255,124,0,0.2); }
+    .formulario .radio label:before,
+    .formulario .checkbox label:before {
+      content: "";
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      left: 15px;
+      border-radius: 50%;
+      background: none;
+      border: 3px solid rgba(255,124,0,1); }
+  .formulario input[type="radio"] {
+    display: none; }
+    .formulario input[type="radio"]:checked + label:before {
+      display: none; }
+    .formulario input[type="radio"]:checked + label {
+      padding: 5px 15px;
+      background: rgba(255,124,0,1);
+      border-radius: 2px;
+      color: #fff; 
+  		width: auto;}
+  
+
+

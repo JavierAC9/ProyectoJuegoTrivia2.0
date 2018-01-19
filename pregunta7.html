@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+    <div id="bloquetitulo">
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>    
+        <a href="pregunta8.html"><img src="img/FlechaDer2.png"  height="85" width=auto class="flecha"></a>      
+    </div>     
+
+
+    <div class="formContainer">
+        <audio controls>
+              <source src="audio/Mr. Popo.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+        </audio>
+        <img src="img/4StarDragonBall.png" height="40" width=auto>
+
+        <p>Pregunta 7. ¿De quién es esta voz?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+                
+                  <input type="radio" name="color" value="Bubbles" class="radio" id="1">
+                  <label for="1">Bubbles</label>                  
+                
+                    <input type="radio" name="color" value="Pilaf" class="radio" id="2">
+                    <label for="2">Pilaf</label>                    
+                              
+                     <input type="radio" name="color" value="Karin " class="radio" id="3">
+                      <label for="3">Karin</label> 
+                                  
+                     <input type="radio" name="color" value="Mr. Popo" class="radio" id="4">
+                      <label for="4">Mr. Popo</label>
+                 
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(6)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+          
+    </div>
+
+
+    
+  
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+    <div id="bloquetitulo">
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>    
+        <a href="pregunta4.html"><img src="img/FlechaDer2.png"  height="85" width=auto class="flecha"></a>      
+    </div>  
+
+
+    <div class="formContainer">
+       
+      
+     <iframe width=auto height="180" src="https://www.youtube.com/embed/EOkhX7isE_g?rel=0&amp;showinfo=0" frameborder="0"></iframe>   
+
+        <p>Pregunta 3. ¿Quién o quiénes viven en este planeta?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+                
+                  <input type="radio" name="color" value="Kami-sama" class="radio" id="1">
+                  <label for="1">Kami-sama </label>                
+               
+                  <input type="radio" name="color" value="Babidi y Majin Boo" class="radio" id="2">
+                  <label for="2">Babidi y Majin Boo</label>                        
+
+                   <input type="radio" name="color" value="Dr. Maki Gero" class="radio" id="3">
+                   <label for="3">Dr. Maki Gero </label>    
+
+                   <input type="radio" name="color" value="Kaio-sama, Bubbles y Gregory" class="radio" id="4">
+                   <label for="4">Kaio-sama, Bubbles y Gregory </label>     
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(2)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+          
+    </div>
+
+
+    
+  
+</body>
+
+</html>

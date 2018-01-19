@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+    <div id="bloquetitulo">
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>    
+        <a href="pregunta6.html"><img src="img/FlechaDer2.png"  height="85" width=auto class="flecha"></a>      
+    </div>  
+
+
+    <div class="formContainer">
+       
+        <audio controls>
+              <source src="audio/Cha-La Head-Cha-La.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+        </audio>
+        <img src="img/4StarDragonBall.png" height="40" width=auto>
+
+        <p>Pregunta 5. ¿De cuál fase del animé es esta canción?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+               
+                  <input type="radio" name="color" value="Dragon Ball Z" class="radio" id="1">
+                  <label for="1">Dragon Ball Z</label>                  
+               
+                    <input type="radio" name="color" value="Dragon Ball" class="radio" id="2">
+                    <label for="2">Dragon Ball</label>                   
+                               
+                     <input type="radio" name="color" value="Dragon Ball Super" class="radio" id="3">
+                      <label for="3">Dragon Ball Super</label>  
+                                
+                     <input type="radio" name="color" value="Dragon Ball GT" class="radio" id="4">
+                      <label for="4">Dragon Ball GT</label>  
+                 
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(4)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+          
+    </div>
+
+
+    
+  
+</body>
+
+</html>

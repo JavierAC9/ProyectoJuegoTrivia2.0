@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+    <div id="bloquetitulo">
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>    
+        <a href="pregunta5.html"><img src="img/FlechaDer2.png"  height="85" width=auto class="flecha"></a>      
+    </div>  
+
+
+    <div class="formContainer">
+
+        <img src="img/4StarDragonBall.png" height="180" width=auto>
+        <p>Pregunta 4. ¿Quién le dió la esfera de 4 estrellas a Gokú?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+               
+                  <input type="radio" name="color" value="Son-Gohan" class="radio" id="1">
+                  <label for="1">El abuelo de Gokú, Son Gohan  </label>                       
+            
+                    <input type="radio" name="color" value="Uranai Baba " class="radio" id="2">
+                    <label for="2">Uranai Baba  </label>                          
+                                
+                     <input type="radio" name="color" value="Krillin " class="radio" id="3">
+                      <label for="3">Krillin</label>        
+                                 
+                     <input type="radio" name="color" value="Mr. Popo" class="radio" id="4">
+                      <label for="4">Mr. Popo</label>  
+                
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(3)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+          
+    </div>
+
+
+    
+  
+</body>
+
+</html>

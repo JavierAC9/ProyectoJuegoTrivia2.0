@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+
+<div id="bloquetitulo1">
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>
+        <a href="pregunta2.html"><img src="img/FlechaDer2.png"  height="85" width=auto class="flecha"></a>      
+</div>     
+
+
+
+    <div class="formContainer">
+
+        <img src="img/Bills.jpg"  height="180" width=auto>
+        <p>Pregunta 1. ¿Cómo se llama este personaje?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+
+              
+                  <input type="radio" name="color" value="Freezer" class="radio" id="1"> 
+                  <label for="1">Freezer</label>                  
+    
+                  <input type="radio" name="color" value="Cell" class="radio" id="2">
+                  <label for="2">Cell</label>                    
+             
+                  <input type="radio" name="color" value="Bills" class="radio" id="3">
+                  <label for="3">Bills</label> 
+              
+                  <input type="radio" name="color" value="Majin Boo" class="radio" id="4">
+                  <label for="4">Majin Boo</label> 
+                 
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(0)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+
+    </div>
+
+
+  </div>
+
+
+    
+    
+       
+      </div>
+    
+     
+
+    
+  
+</body>
+
+</html>

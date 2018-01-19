@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Ball Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/4StarDragonBall.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+
+<body class="pregunta">
+    <div id="bloquetitulo">
+        <img src="img/DragonBallTitulo.png"  height="100" width=auto>    
+        <a href="pregunta7.html"><img src="img/FlechaDer2.png"  height="85" width=auto class="flecha"></a>      
+    </div>  
+
+
+    <div class="formContainer">
+       
+<iframe width=auto height="180" src="https://www.youtube.com/embed/gytlXQjxqj4?rel=0&amp;showinfo=0&amp;start=61" frameborder="0"></iframe>
+
+        <p>Pregunta 6. ¿Cómo se llama la técnica que usa Gokú contra Freezer?</p>
+
+        <form class="formulario">
+
+
+            <label class="respuesta">Respuesta: </label> 
+            <div class="radio">
+              
+                  <input type="radio" name="color" value="KameHameHa" class="radio" id="1">
+                  <label for="1">KameHameHa</label>              
+                
+                    <input type="radio" name="color" value="Genki-dama" class="radio" id="2">
+                    <label for="2">Genki-dama</label>                     
+                              
+                     <input type="radio" name="color" value="Kaio-ken" class="radio" id="3">
+                      <label for="3">Kaio-ken</label>
+                               
+                     <input type="radio" name="color" value="Supernova" class="radio" id="4">
+                      <label for="4">Supernova</label>
+                 
+            </div>
+
+            <button type="button" id="boton" onclick="preguntas(5)">Responder</button>
+
+             <p id="resultado"></p>
+            
+        </form>
+          
+    </div>
+
+
+    
+  
+</body>
+
+</html>
